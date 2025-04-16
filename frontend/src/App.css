@@ -1,0 +1,71 @@
+/* App.css */
+
+/* Layout for login page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.login-content {
+  width: 100%;
+  max-width: 500px; /* Login form width */
+}
+
+/* General layout for the app (with sidebar) */
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f3f4f6;
+  margin-left: 200px; /* Space for sidebar */
+  transition: margin-left 0.3s;
+}
+
+/* Sidebar styles (only applied when the page is not login) */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #1a202c;
+  color: white;
+  padding-top: 20px;
+}
+
+.sidebar .menu-item {
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar .menu-item:hover {
+  background-color: #3b82f6;
+}
+
+.sidebar .icon {
+  font-size: 1.5rem;
+}
+
+.sidebar .menu-item.active {
+  background-color: #3b82f6;
+  font-weight: bold;
+}
+
+/* Ensure the main content area adjusts for sidebar */
+.main-content {
+  margin-left: 200px;
+  padding: 20px;
+  background-color: #f4f7fc;
+}

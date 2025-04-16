@@ -1,0 +1,36 @@
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+.settings-section {
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.settings-section h2 {
+    margin-bottom: 10px;
+}
+
+.settings-section input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.settings-section button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.settings-section button:hover {
+    background: #0056b3;
+}
