@@ -1,0 +1,26 @@
+.blinking-banner {
+    background-color: #ffe9e9;
+    color: #d8000c;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    animation: blinkBg 1s infinite;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .blink {
+    animation: blinkText 1s infinite;
+  }
+  
+  @keyframes blinkText {
+    50% { opacity: 0; }
+  }
+  
+  @keyframes blinkBg {
+    0% { background-color: #ffe9e9; }
+    50% { background-color: #ffc0c0; }
+    100% { background-color: #ffe9e9; }
+  }
+  

@@ -1,0 +1,116 @@
+.inventory-main {
+    display: flex;
+    padding: 20px;
+    background-color: #f4f7fc;
+  }
+  .status.critical {
+    color: red;
+  }
+  
+  .status.low-stock {
+    color: orange;
+  }
+  
+  .status.in-stock {
+    color: green;
+  }
+  
+  
+  .top-bar input {
+    padding: 8px;
+    width: 60%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filters select,
+  .filters input {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .inventory-table {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .inventory-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .inventory-table th,
+  .inventory-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .status.critical {
+    background-color: #ffe5e5;
+    color: #d10000;
+  }
+  
+  .status.in-stock {
+    background-color: #e5ffe5;
+    color: #007f00;
+  }
+  
+  .icon {
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  /* Right Sidebar */
+  .inventory-side-insights {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .stock-insights,
+  .restock-cards {
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .stock-insights h3,
+  .restock-cards h3 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+  }
+  
+  .restock-card {
+    border-left: 4px solid red;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.03);
+  }
+  
+  .restock-card p {
+    margin: 4px 0;
+  }
+  
